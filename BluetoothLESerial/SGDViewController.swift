@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SGDViewController: UIViewController {
 
+    @IBAction func connectBluetoothDevice(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

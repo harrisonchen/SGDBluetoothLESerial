@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		845C400D1A83FF9100BB357F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C400C1A83FF9100BB357F /* AppDelegate.swift */; };
-		845C400F1A83FF9100BB357F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C400E1A83FF9100BB357F /* ViewController.swift */; };
+		845C400F1A83FF9100BB357F /* SGDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C400E1A83FF9100BB357F /* SGDViewController.swift */; };
 		845C40121A83FF9100BB357F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C40101A83FF9100BB357F /* Main.storyboard */; };
 		845C40141A83FF9100BB357F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845C40131A83FF9100BB357F /* Images.xcassets */; };
 		845C40171A83FF9100BB357F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845C40151A83FF9100BB357F /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		845C40071A83FF9100BB357F /* BluetoothLESerial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothLESerial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C400B1A83FF9100BB357F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845C400C1A83FF9100BB357F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845C400E1A83FF9100BB357F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845C400E1A83FF9100BB357F /* SGDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDViewController.swift; sourceTree = "<group>"; };
 		845C40111A83FF9100BB357F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845C40131A83FF9100BB357F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		845C40161A83FF9100BB357F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				845C400C1A83FF9100BB357F /* AppDelegate.swift */,
-				845C400E1A83FF9100BB357F /* ViewController.swift */,
+				845C400E1A83FF9100BB357F /* SGDViewController.swift */,
 				845C40101A83FF9100BB357F /* Main.storyboard */,
 				845C40131A83FF9100BB357F /* Images.xcassets */,
 				845C40151A83FF9100BB357F /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845C400F1A83FF9100BB357F /* ViewController.swift in Sources */,
+				845C400F1A83FF9100BB357F /* SGDViewController.swift in Sources */,
 				845C400D1A83FF9100BB357F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
